@@ -26,7 +26,7 @@ function showvalue(){
 
 function domaths(){
     document.getElementById("output").innerHTML = eval(input);
-    input = ""
+    input = eval(input);
 }
 
 function reset(){
